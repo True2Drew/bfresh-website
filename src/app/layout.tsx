@@ -1,0 +1,28 @@
+import type { Metadata } from 'next'
+import '../styles/globals.css'
+import Nav from '@/components/layout/Nav'
+import Footer from '@/components/layout/Footer'
+
+export const metadata: Metadata = {
+  title: 'BFresh Avocado Group',
+  description: 'Corporate website for BFresh Avocado Group',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <Nav />
+        <main>
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  )
+}
+

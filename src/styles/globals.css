@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  /* Component styles will be added here as needed */
+}
+
+@layer utilities {
+  /* Custom utility classes will be added here as needed */
+}
+
