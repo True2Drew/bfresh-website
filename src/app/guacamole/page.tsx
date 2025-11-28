@@ -13,8 +13,9 @@ export default function Guacamole() {
       <HeroPlaceholder
         title="Guacamole & Avocado Pulp"
         subtitle="Premium processing facilities for value-added products"
-        imagePath="/images/Avo-Toast-Mash.webp"
+        imagePath="/images/Guacamole/Avo-Toast-Mash.webp"
         imageAlt="Guacamole processing placeholder"
+        rotateOnScroll={true}
       />
 
       {/* Intro */}
@@ -24,7 +25,7 @@ export default function Guacamole() {
       />
 
       {/* Processing Line Section */}
-      <section className="py-16 px-4">
+      <section className="relative z-10 bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <SectionTitle 
             title="Processing Technology"
@@ -56,7 +57,7 @@ export default function Guacamole() {
       </section>
 
       {/* Packaging Section */}
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="relative z-10 py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <SectionTitle 
             title="Packaging Solutions"
@@ -86,7 +87,7 @@ export default function Guacamole() {
       </section>
 
       {/* Quality & Safety Section */}
-      <section className="py-16 px-4">
+      <section className="relative z-10 bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <SectionTitle 
             title="Quality & Safety Standards"

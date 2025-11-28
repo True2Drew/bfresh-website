@@ -20,7 +20,7 @@ export default function Packhouse() {
       {/* PLACEHOLDER CONTENT - DO NOT DEPLOY */}
       
       {/* Hero with Scroll-Scrub Sequence */}
-      <section className="relative w-full h-[85vh] min-h-[600px] overflow-hidden">
+      <section className="relative w-full h-screen overflow-hidden">
         <ScrollScrubSequence
           frames={PACKLINE_FRAMES}
           alt="Packhouse grading line animation sequence"
@@ -61,7 +61,7 @@ export default function Packhouse() {
                 ripeness, and quality. This ensures consistent product quality and efficient processing.
               </p>
               <ul className="list-disc list-inside text-gray-600 space-y-2">
-                <li>Size grading (48-84 count)</li>
+                <li>Size grading (32s-84s count)</li>
                 <li>Ripeness detection</li>
                 <li>Quality sorting</li>
                 <li>Automated packaging</li>
@@ -119,14 +119,14 @@ export default function Packhouse() {
             <InfoCardPlaceholder
               title="Cartons"
               description="Bulk packaging for foodservice and retail"
-              imagePath="/images/Party-Pak-500x500.png"
-              imageAlt="Carton placeholder"
+              imagePath="/images/Packhouse/bfresh-runway-small_ 1 (00.02.42.17).png"
+              imageAlt="Cartons packaging"
             />
             <InfoCardPlaceholder
               title="Bulk Pallets"
               description="Large-scale distribution packaging"
-              imagePath="/images/Nutritional-Avocado-Bag-500x500.png"
-              imageAlt="Bulk packaging placeholder"
+              imagePath="/images/Packhouse/bfresh-runway-small_ 1 (00.02.29.18).png"
+              imageAlt="Bulk pallets packaging"
             />
             <InfoCardPlaceholder
               title="Custom Packaging"
