@@ -33,7 +33,7 @@ export default function Guacamole() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <ImageGridPlaceholder
               images={[
-                { path: "/images/BON_brochure_2025_V10_no compaginado-images-2.jpg", alt: "Processing line placeholder" },
+                { path: "/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-22.jpg", alt: "Processing line" },
                 { path: "/images/BON_brochure_2025_V10_no compaginado-images-3.jpg", alt: "Production equipment placeholder" }
               ]}
               columns={2}
@@ -64,22 +64,22 @@ export default function Guacamole() {
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <InfoCardPlaceholder
-              title="Retail Bags"
+              title="Retail Packs"
               description="Consumer-ready packaging in various sizes for retail markets."
-              imagePath="/images/CA-Gem-Avocado-Bag-500x500.png"
-              imageAlt="Retail bag placeholder"
+              imagePath="/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-35.jpg"
+              imageAlt="Retail packs"
             />
             <InfoCardPlaceholder
               title="Foodservice Tubs"
               description="Large-format packaging for restaurants and foodservice operations."
-              imagePath="/images/Mexico-Avocado-Bag-500x500.png"
-              imageAlt="Foodservice tub placeholder"
+              imagePath="/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-24.jpg"
+              imageAlt="Foodservice tubs"
             />
             <InfoCardPlaceholder
               title="Industrial Pouches"
               description="Bulk packaging for industrial and manufacturing applications."
-              imagePath="/images/Colombia-Avocado-Bag-500x500.png"
-              imageAlt="Industrial pouch placeholder"
+              imagePath="/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-21.jpg"
+              imageAlt="Industrial pouches"
             />
           </div>
         </div>

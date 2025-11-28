@@ -1,21 +1,42 @@
-import HeroPlaceholder from '@/components/sections/HeroPlaceholder'
+import ScrollScrubSequence from '@/components/ScrollScrubSequence'
 import SectionTitle from '@/components/sections/SectionTitle'
 import PageIntroBlock from '@/components/sections/PageIntroBlock'
 import InfoCardPlaceholder from '@/components/ui/InfoCardPlaceholder'
 import ImageGridPlaceholder from '@/components/ui/ImageGridPlaceholder'
+
+const PACKLINE_FRAMES = [
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.52.12).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.52.16).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.52.20).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.53.00).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.53.04).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.53.08).png',
+  '/images/Packhouse/Sequence/bfresh-runway-small_ 1 (00.01.53.12).png',
+]
 
 export default function Packhouse() {
   return (
     <main className="min-h-screen">
       {/* PLACEHOLDER CONTENT - DO NOT DEPLOY */}
       
-      {/* Hero */}
-      <HeroPlaceholder
-        title="Fresh Avocado Packhouse"
-        subtitle="State-of-the-art sorting, grading, and packaging facilities"
-        imagePath="/images/CA-Gold-Avocados-500x500.png"
-        imageAlt="Packhouse facility placeholder"
-      />
+      {/* Hero with Scroll-Scrub Sequence */}
+      <section className="relative w-full h-[85vh] min-h-[600px] overflow-hidden">
+        <ScrollScrubSequence
+          frames={PACKLINE_FRAMES}
+          alt="Packhouse grading line animation sequence"
+          className="absolute inset-0"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/50 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
+              Fresh Avocado Packhouse
+            </h1>
+            <p className="text-xl md:text-3xl font-light">
+              State-of-the-art sorting, grading, and packaging facilities
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Intro */}
       <div className="bg-white">
@@ -48,8 +69,8 @@ export default function Packhouse() {
             </div>
             <ImageGridPlaceholder
               images={[
-                { path: "/images/BON_brochure_2025_V10_no compaginado-images-0.jpg", alt: "Sorting line placeholder" },
-                { path: "/images/BON_brochure_2025_V10_no compaginado-images-1.jpg", alt: "Grading equipment placeholder" }
+                { path: "/images/Packhouse/seleccionadora.png", alt: "Sorting equipment" },
+                { path: "/images/Packhouse/clasificadora.png", alt: "Grading equipment" }
               ]}
               columns={2}
             />

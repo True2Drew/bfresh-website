@@ -33,18 +33,18 @@ export default function Certifications() {
           />
           <CertGridPlaceholder
             certifications={[
-              { name: "GlobalG.A.P." },
-              { name: "Organic Certified" },
-              { name: "HACCP" },
-              { name: "ISO 9001" },
-              { name: "Fair Trade" },
-              { name: "Rainforest Alliance" },
-              { name: "SQF" },
-              { name: "BRC" },
-              { name: "Kosher" },
-              { name: "Halal" },
-              { name: "FDA Registered" },
-              { name: "USDA Organic" }
+              { name: "GlobalG.A.P.", imagePath: "/images/certificates/globalgap.jpg", imageAlt: "GlobalG.A.P. certification logo" },
+              { name: "Organic Certified", imagePath: "/images/certificates/organic.png", imageAlt: "Organic certification logo" },
+              { name: "HACCP", imagePath: "/images/certificates/HACCP.jpg", imageAlt: "HACCP certification logo" },
+              { name: "ISO 9001", imagePath: "/images/certificates/ISO.png", imageAlt: "ISO 9001 certification logo" },
+              { name: "Fair Trade", imagePath: "/images/certificates/Fairtrade-Logo.png", imageAlt: "Fair Trade certification logo" },
+              { name: "Rainforest Alliance", imagePath: "/images/certificates/rainforest-alliance-logo.png", imageAlt: "Rainforest Alliance certification logo" },
+              { name: "SQF", imagePath: "/images/certificates/sqf-c.jpg", imageAlt: "SQF certification logo" },
+              { name: "BRC", imagePath: "/images/certificates/brc.png", imageAlt: "BRC certification logo" },
+              { name: "SMETA", imagePath: "/images/certificates/Smeta.png", imageAlt: "SMETA certification logo" },
+              { name: "PRIMUS", imagePath: "/images/certificates/Primus.jpg", imageAlt: "PRIMUS certification logo" },
+              { name: "SENASICA", imagePath: "/images/certificates/Senasica.png", imageAlt: "SENASICA certification logo" },
+              { name: "SIAR", imagePath: "/images/certificates/Siar.jpg", imageAlt: "SIAR certification logo" }
             ]}
           />
         </div>

@@ -6,11 +6,12 @@ import { useEffect, useState } from 'react'
 interface HeroPlaceholderProps {
   title: string
   subtitle?: string
-  imagePath: string
-  imageAlt: string
+  imagePath?: string
+  imageAlt?: string
+  videoPath?: string
 }
 
-export default function HeroPlaceholder({ title, subtitle, imagePath, imageAlt }: HeroPlaceholderProps) {
+export default function HeroPlaceholder({ title, subtitle, imagePath, imageAlt, videoPath }: HeroPlaceholderProps) {
   const [scrollY, setScrollY] = useState(0)
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false)
 
@@ -44,15 +45,29 @@ export default function HeroPlaceholder({ title, subtitle, imagePath, imageAlt }
 
   return (
     <div className="relative w-full h-[85vh] min-h-[600px] overflow-hidden">
-      {/* PLACEHOLDER IMAGE - DO NOT DEPLOY */}
-      <Image
-        src={imagePath}
-        alt={imageAlt}
-        fill
-        className="object-cover"
-        style={prefersReducedMotion ? {} : { transform: `translateY(${scrollY * 0.5}px)` }}
-        priority
-      />
+      {/* Video or Image Background */}
+      {videoPath ? (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          style={prefersReducedMotion ? {} : { transform: `translateY(${scrollY * 0.5}px)` }}
+          poster={imagePath}
+        >
+          <source src={videoPath} type="video/mp4" />
+        </video>
+      ) : imagePath ? (
+        <Image
+          src={imagePath}
+          alt={imageAlt || 'Hero background'}
+          fill
+          className="object-cover"
+          style={prefersReducedMotion ? {} : { transform: `translateY(${scrollY * 0.5}px)` }}
+          priority
+        />
+      ) : null}
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/50 flex items-center justify-center">
         <div className="text-center text-white px-4 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">

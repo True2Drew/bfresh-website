@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
 
@@ -49,8 +50,16 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-green-700">BFresh</span>
+          <Link href="/" className="flex items-center h-14">
+            <Image
+              src="/images/Logos/Bfresh-logo.png"
+              alt="BFresh Logo"
+              width={300}
+              height={120}
+              className="h-full w-auto object-contain"
+              priority
+              unoptimized
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -19,6 +19,7 @@ export default function Home() {
       <HeroPlaceholder
         title="BFresh Avocado Group"
         subtitle="Premium Avocado Solutions from Farm to Table"
+        videoPath="/images/Hero-vid/Bfresh-Hero.mp4"
         imagePath="/images/arp-4.webp"
         imageAlt="Avocado orchard placeholder"
       />
@@ -50,8 +51,8 @@ export default function Home() {
               <InfoCardPlaceholder
                 title="Fresh Avocado Packhouse"
                 description="State-of-the-art sorting, grading, and packaging facilities for fresh avocados. Cold chain management and quality assurance."
-                imagePath="/images/CA-Gold-Avocados-500x500.png"
-                imageAlt="Fresh avocados placeholder"
+                imagePath="/images/Packhouse/bfresh-runway-small_ 1 (00.02.50.17).png"
+                imageAlt="Fresh avocado packhouse facility"
                 link="/packhouse"
                 linkText="Learn More"
               />
@@ -66,8 +67,8 @@ export default function Home() {
               <InfoCardPlaceholder
                 title="Avocado Oil Production"
                 description="Cold-pressed avocado oil for culinary and industrial applications. Premium quality extraction."
-                imagePath="/images/avo-bowl-iso.webp"
-                imageAlt="Avocado oil placeholder"
+                imagePath="/images/Oil/avo-oil.jpg"
+                imageAlt="Avocado oil production"
                 link="/oil"
                 linkText="Learn More"
               />
@@ -111,8 +112,8 @@ export default function Home() {
                 name="Michoacán Growers Cooperative"
                 location="Michoacán, Mexico"
                 description="Family-owned operations with generations of avocado expertise. Premium Hass variety production."
-                imagePath="/images/lifestyle-137.jpg"
-                imageAlt="Grower network placeholder"
+                imagePath="/images/Growers/bfresh-runway-small_ 1 (00.01.05.17).png"
+                imageAlt="Michoacán Growers Cooperative"
               />
               <GrowerCardPlaceholder
                 name="Colombian Highlands Partnership"
