@@ -6,7 +6,7 @@ export default function BFreshExperience() {
           THE BFRESH EXPERIENCE
         </h2>
         <p className="text-xl text-center mb-16 max-w-3xl mx-auto">
-          BFresh avocados are sourced from premium growers across Mexico, Colombia, and California. 
+          BFresh avocados are sourced from premium growers across Mexico. 
           Our distribution network ensures year-round supply to customers throughout North America, 
           Europe, and Asia, backed by world-class customer service and value-added solutions.
         </p>

@@ -113,13 +113,13 @@ export default function Packhouse() {
             <InfoCardPlaceholder
               title="Mesh Bags"
               description="Standard retail packaging in various sizes"
-              imagePath="/images/Value-Pak-Avocado-Bag-500x500.png"
+              imagePath="/images/Fresh Avos/B-Fresh Value Pack NBG.png"
               imageAlt="Mesh bag placeholder"
             />
             <InfoCardPlaceholder
               title="Cartons"
               description="Bulk packaging for foodservice and retail"
-              imagePath="/images/Packhouse/bfresh-runway-small_ 1 (00.02.42.17).png"
+              imagePath="/images/Bfresh-Box/Box-sideview-fullopen.jpeg"
               imageAlt="Cartons packaging"
             />
             <InfoCardPlaceholder
