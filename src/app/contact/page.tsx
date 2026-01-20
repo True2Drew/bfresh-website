@@ -61,9 +61,9 @@ export default function Contact() {
               <div className="text-4xl mb-4">📍</div>
               <h3 className="text-xl font-bold mb-2">Address</h3>
               <p className="text-gray-600">
-                123 Avocado Street<br />
-                City, State 12345<br />
-                United States
+                Car. Uruapan - Apatzingán Km. 87<br />
+                60235 Uruapan, Mich.<br />
+                Mexico
               </p>
             </div>
           </div>
@@ -88,20 +88,38 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Placeholder */}
+      {/* Map */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <SectionTitle 
             title="Location"
             subtitle="Find us on the map"
           />
-          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
-            {/* PLACEHOLDER MAP - DO NOT DEPLOY */}
-            <div className="text-center text-gray-500">
-              <div className="text-4xl mb-4">🗺️</div>
-              <p className="text-lg font-semibold">Map Placeholder</p>
-              <p className="text-sm">Interactive map will be added in Phase 2</p>
-            </div>
+          <div className="bg-gray-200 h-96 rounded-lg overflow-hidden shadow-lg">
+            <iframe
+              src={`https://www.google.com/maps?q=${encodeURIComponent('Car. Uruapan - Apatzingán Km. 87, 60235 Uruapan, Mich., Mexico')}&output=embed`}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full"
+              title="BFresh Location Map"
+            ></iframe>
+          </div>
+          <div className="mt-4 text-center">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Car.+Uruapan+-+Apatzingán+Km.+87,+60235+Uruapan,+Mich.,+Mexico"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline inline-flex items-center gap-2"
+            >
+              <span>Open in Google Maps</span>
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
           </div>
         </div>
       </section>

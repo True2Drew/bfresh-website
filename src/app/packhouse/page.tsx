@@ -115,6 +115,9 @@ export default function Packhouse() {
               description="Standard retail packaging in various sizes"
               imagePath="/images/Fresh Avos/B-Fresh Value Pack NBG.png"
               imageAlt="Mesh bag placeholder"
+              imageFit="contain"
+              imageHeight="h-96 md:h-[450px]"
+              textOverlap={true}
             />
             <InfoCardPlaceholder
               title="Cartons"
@@ -125,7 +128,7 @@ export default function Packhouse() {
             <InfoCardPlaceholder
               title="Bulk Pallets"
               description="Large-scale distribution packaging"
-              imagePath="/images/Packhouse/bfresh-runway-small_ 1 (00.02.29.18).png"
+              imagePath="/images/Packhouse/Pallets NBG.png"
               imageAlt="Bulk pallets packaging"
             />
             <InfoCardPlaceholder
