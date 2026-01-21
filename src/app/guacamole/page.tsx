@@ -3,6 +3,7 @@ import SectionTitle from '@/components/sections/SectionTitle'
 import PageIntroBlock from '@/components/sections/PageIntroBlock'
 import InfoCardPlaceholder from '@/components/ui/InfoCardPlaceholder'
 import ImageGridPlaceholder from '@/components/ui/ImageGridPlaceholder'
+import Image from 'next/image'
 
 export default function Guacamole() {
   return (
@@ -81,6 +82,15 @@ export default function Guacamole() {
               description="Bulk packaging for industrial and manufacturing applications."
               imagePath="/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-21.jpg"
               imageAlt="Industrial pouches"
+            />
+          </div>
+          <div className="mt-12 flex justify-center">
+            <Image
+              src="/images/Guacamole/Presentations.png"
+              alt="Avocado pulp and guacamole packaging presentations"
+              width={1200}
+              height={800}
+              className="w-full max-w-4xl h-auto rounded-lg shadow-md"
             />
           </div>
         </div>
