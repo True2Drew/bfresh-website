@@ -34,28 +34,25 @@ export default function Growers() {
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <GrowerCardPlaceholder
-              name="Michoacán Growers Cooperative"
+              name="Michoacán Growers CoOp"
               location="Michoacán, Mexico"
-              description="Family-owned operations with generations of avocado expertise. Premium Hass variety production 
-              with focus on sustainable farming practices. Multi-generational commitment to quality."
-              imagePath="/images/Mexico-Avocado-Bag-500x500.png"
-              imageAlt="Michoacán growers placeholder"
+              description="Family-owned operations with generations of avocado expertise. Premium Hass variety production."
+              imagePath="/images/Growers/CoOp.png"
+              imageAlt="Michoacán Growers CoOp"
             />
             <GrowerCardPlaceholder
-              name="Colombian Highlands Partnership"
-              location="Colombia"
-              description="High-altitude cultivation producing exceptional quality avocados year-round. 
-              Unique microclimate conditions result in superior flavor and texture. Certified organic options available."
-              imagePath="/images/Colombia-Avocado-Bag-500x500.png"
-              imageAlt="Colombian growers placeholder"
+              name="Mexican Highlands Partnership"
+              location="Tancitaro"
+              description="High-altitude cultivation producing exceptional quality avocados year-round."
+              imagePath="/images/Fresh Avos/Highlands OG MESH.png"
+              imageAlt="Mexican Highlands Partnership"
             />
             <GrowerCardPlaceholder
-              name="California Premium Growers"
-              location="California, USA"
-              description="Sustainable farming practices with focus on quality and environmental stewardship. 
-              Local sourcing for domestic markets with emphasis on traceability and food safety."
-              imagePath="/images/CA-Gold-Avocados-500x500.png"
-              imageAlt="California growers placeholder"
+              name="Organic Certified Growers"
+              location="Uruapan"
+              description="Sustainable farming practices with focus on quality and environmental stewardship."
+              imagePath="/images/Fresh Avos/NBG OG mesh.png"
+              imageAlt="Organic Certified Growers"
             />
           </div>
         </div>

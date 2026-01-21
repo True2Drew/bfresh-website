@@ -109,25 +109,25 @@ export default function Home() {
             />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <GrowerCardPlaceholder
-                name="Michoacán Growers Cooperative"
+                name="Michoacán Growers CoOp"
                 location="Michoacán, Mexico"
                 description="Family-owned operations with generations of avocado expertise. Premium Hass variety production."
-                imagePath="/images/Growers/bfresh-runway-small_ 1 (00.01.05.17).png"
-                imageAlt="Michoacán Growers Cooperative"
+                imagePath="/images/Growers/CoOp.png"
+                imageAlt="Michoacán Growers CoOp"
               />
               <GrowerCardPlaceholder
-                name="Colombian Highlands Partnership"
-                location="Colombia"
+                name="Mexican Highlands Partnership"
+                location="Tancitaro"
                 description="High-altitude cultivation producing exceptional quality avocados year-round."
-                imagePath="/images/Colombia-Avocado-Bag-500x500.png"
-                imageAlt="Colombian growers placeholder"
+                imagePath="/images/Fresh Avos/Highlands OG MESH.png"
+                imageAlt="Mexican Highlands Partnership"
               />
               <GrowerCardPlaceholder
-                name="California Premium Growers"
-                location="California, USA"
+                name="Organic Certified Growers"
+                location="Uruapan"
                 description="Sustainable farming practices with focus on quality and environmental stewardship."
-                imagePath="/images/CA-Gem-Avocado-Bag-500x500.png"
-                imageAlt="California growers placeholder"
+                imagePath="/images/Fresh Avos/NBG OG mesh.png"
+                imageAlt="Organic Certified Growers"
               />
             </div>
           </div>

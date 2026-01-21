@@ -122,20 +122,29 @@ export default function Packhouse() {
             <InfoCardPlaceholder
               title="Cartons"
               description="Bulk packaging for foodservice and retail"
-              imagePath="/images/Bfresh-Box/Box-sideview-fullopen.jpeg"
+              imagePath="/images/Bfresh-Box/d0c9251c-64ef-4811-8c28-b1c8f9f60143.png"
               imageAlt="Cartons packaging"
+              imageFit="contain"
+              imageHeight="h-96 md:h-[450px]"
+              textOverlap={true}
             />
             <InfoCardPlaceholder
               title="Bulk Pallets"
               description="Large-scale distribution packaging"
               imagePath="/images/Packhouse/Pallets NBG.png"
               imageAlt="Bulk pallets packaging"
+              imageFit="contain"
+              imageHeight="h-96 md:h-[450px]"
+              textOverlap={true}
             />
             <InfoCardPlaceholder
               title="Custom Packaging"
               description="Branded and private label solutions"
-              imagePath="/images/Lil-Cados-500x500.png"
+              imagePath="/images/Fresh Avos/guakpakmesh.png"
               imageAlt="Custom packaging placeholder"
+              imageFit="contain"
+              imageHeight="h-96 md:h-[450px]"
+              textOverlap={true}
             />
           </div>
         </div>

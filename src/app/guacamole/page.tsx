@@ -35,7 +35,7 @@ export default function Guacamole() {
             <ImageGridPlaceholder
               images={[
                 { path: "/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-22.jpg", alt: "Processing line" },
-                { path: "/images/BON_brochure_2025_V10_no compaginado-images-3.jpg", alt: "Production equipment placeholder" }
+                { path: "/images/Guacamole/Untitled design (1).png", alt: "Production equipment placeholder" }
               ]}
               columns={2}
             />
@@ -67,7 +67,7 @@ export default function Guacamole() {
             <InfoCardPlaceholder
               title="Retail Packs"
               description="Consumer-ready packaging in various sizes for retail markets."
-              imagePath="/images/Guacamole/BON_brochure_2025_V10_no compaginado-images-35.jpg"
+              imagePath="/images/Guacamole/lineup1.png"
               imageAlt="Retail packs"
             />
             <InfoCardPlaceholder

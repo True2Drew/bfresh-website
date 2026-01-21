@@ -24,7 +24,7 @@ export default function GrowerCardPlaceholder({
             src={imagePath}
             alt={imageAlt || name}
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </div>
       )}
