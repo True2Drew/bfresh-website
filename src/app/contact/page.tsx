@@ -54,7 +54,7 @@ export default function Contact() {
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="text-4xl mb-4">📞</div>
               <h3 className="text-xl font-bold mb-2">Phone</h3>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-gray-600">+52 443 272 5258</p>
               <p className="text-gray-600 text-sm">Mon-Fri, 9am-5pm EST</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">

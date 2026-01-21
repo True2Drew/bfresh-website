@@ -23,7 +23,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-slate-300 text-sm space-y-2">
               <span>Email: info@bfresh.com</span><br />
-              <span>Phone: +1 (555) 123-4567</span>
+              <span>Phone: +52 443 272 5258</span>
             </p>
           </div>
 

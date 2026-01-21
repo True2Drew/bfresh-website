@@ -13,7 +13,7 @@ export default function Growers() {
       <HeroPlaceholder
         title="Our Grower Network"
         subtitle="Partnering with trusted growers for premium quality"
-        imagePath="/images/lifestyle-137.jpg"
+        imagePath="/images/Growers/Grower hero.png"
         imageAlt="Orchard background placeholder"
       />
 
