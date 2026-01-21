@@ -122,7 +122,7 @@ export default function Packhouse() {
             <InfoCardPlaceholder
               title="Cartons"
               description="Bulk packaging for foodservice and retail"
-              imagePath="/images/Bfresh-Box/d0c9251c-64ef-4811-8c28-b1c8f9f60143.png"
+              imagePath="/images/Bfresh-Box/Box Revamp.png"
               imageAlt="Cartons packaging"
               imageFit="contain"
               imageHeight="h-96 md:h-[450px]"
