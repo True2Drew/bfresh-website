@@ -131,7 +131,7 @@ export default function HeroPlaceholder({ title, subtitle, imagePath, imageAlt, 
   }
 
   return (
-    <div ref={heroRef} className={`relative w-full h-[85vh] min-h-[600px] z-0 ${rotateOnScroll ? 'overflow-visible' : 'overflow-hidden'}`}>
+    <div ref={heroRef} className={`relative w-full h-[70vh] min-h-[420px] md:h-[85vh] md:min-h-[600px] z-0 ${rotateOnScroll ? 'overflow-visible' : 'overflow-hidden'}`}>
       {/* Video or Image Background */}
       {videoPath ? (
         <video
@@ -140,7 +140,7 @@ export default function HeroPlaceholder({ title, subtitle, imagePath, imageAlt, 
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-[center_25%] md:object-center"
           style={getTransformStyle()}
           poster={imagePath}
         >
